@@ -57,7 +57,7 @@ if [ -f "rclone.conf" ]; then
   mv -f rclone.conf .config/rclone/rclone.conf
   echo "-----> Done."
 else
-  echo "rclone.conf not exist"  | indent
+  echo "rclone.conf not exist"
 fi
 
 echo "-----> moving id_rsa"
@@ -67,7 +67,7 @@ if [ -f "id_rsa" ]; then
   chmod 0700 .ssh/id_rsa
   echo "-----> Done."
 else
-  echo "id_rsa not exist"  | indent
+  echo "id_rsa not exist"
 fi
 
 
