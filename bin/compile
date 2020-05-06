@@ -46,8 +46,7 @@ echo "Rclone installed"  | indent
 
 
 #### moving rclone.conf ########
-
-cd "\$HOME"
+cd ../..
 echo "-----> moving config file, rclone.conf"
 if [ -f "rclone.conf" ]; then
   mkdir -p .config/rclone
